@@ -8,10 +8,15 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #c0c0c0;
+}
+
+.gameContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .sprite {
@@ -37,6 +42,7 @@ body {
   }
 
 }
+
 .sprite2 {
   display: inline-block;
   background: url('./rasenShuriken.png') no-repeat;
