@@ -10,6 +10,17 @@ body {
   color: #c0c0c0;
 }
 
+h1,
+h2 {
+  font-size: 2.5rem;
+  background: #CB60B3;
+  background: -webkit-linear-gradient(to right, #d8d6d7 0%, #C146A1 50%, #dd78ae 51%, #3125CF 100%);
+  background: -moz-linear-gradient(to right, #d8d6d7 0%, #C146A1 50%, #dd78ae 51%, #dd78ae 100%);
+  background: linear-gradient(to right, #d8d6d7 0%, #C146A1 50%, #dd78ae 51%, #3125CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .gameContainer {
   display: flex;
   flex-direction: row;
